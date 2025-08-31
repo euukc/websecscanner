@@ -7,12 +7,14 @@ Um scanner de segurança web em Go que verifica headers HTTP e outras configura�
 
 - Verifica headers HTTP de segurança comuns:
 
-Server → identifica o servidor e tecnologia usada
-X-Powered-By → indica o framework ou linguagem
-Content-Security-Policy (CSP) → prevenção contra XSS
-X-Frame-Options → proteção contra clickjacking
-X-Content-Type-Options → evita MIME sniffing
-Referrer-Policy → controle de informações do Referer
+<ol>
+<li>Server → identifica o servidor e tecnologia usada</li>
+<li>X-Powered-By → indica o framework ou linguagem</li>
+<li>Content-Security-Policy (CSP) → prevenção contra XSS</li>
+<li>X-Frame-Options → proteção contra clickjacking</li>
+<li>X-Content-Type-Options → evita MIME sniffing</li>
+<li>Referrer-Policy → controle de informações do Referer</li>
+</ol>
 
 Estrutura modular que permite adicionar novas análises facilmente.
 
